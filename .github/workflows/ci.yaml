@@ -37,3 +37,12 @@ jobs:
 
       - name: Print Date
         run: date
+
+      - name: Print Python Version
+        run: python --version
+
+      - name: Print Current Directory
+        run: pwd
+
+      - name: List Files
+        run: ls -la
